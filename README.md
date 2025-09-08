@@ -3,6 +3,7 @@
 ## Demo:
 
 https://currcall.vercel.app/
+---
 
 CurrCall is an interactive chatbot designed for the Electronics and Communication Engineering (ECE) department at NIT Hamirpur. It helps students and faculty quickly access curriculum details, course information, and academic resources.
 
