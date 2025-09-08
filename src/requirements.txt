@@ -12,5 +12,5 @@ uvicorn
 google-generativeai
 starlette
 langchain-core
-
+langchain_google_genai
 
