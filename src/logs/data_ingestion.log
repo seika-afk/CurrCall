@@ -1,0 +1,183 @@
+2025-09-09 01:45:36,842 - Errors - ERROR - Unexpected error occurred: module 'google.generativeai' has no attribute 'chat'
+2025-09-09 01:46:14,509 - Errors - ERROR - Unexpected error occurred: module 'google.generativeai' has no attribute 'chat'
+2025-09-09 01:47:29,379 - Errors - ERROR - Unexpected error occurred: module 'google.generativeai' has no attribute 'chat'
+2025-09-09 01:48:59,665 - Errors - ERROR - Unexpected error occurred: module 'google.generativeai' has no attribute 'models'
+2025-09-09 01:50:14,725 - Errors - ERROR - Unexpected error occurred: Unsupported google.generativeai version: no known generation API available
+2025-09-09 01:52:36,243 - Errors - DEBUG - REST https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key=AIzaSyDmE1WG5EGcyldyD3eKbPn8LYEwT9EfGqg returned 400: {
+  "error": {
+    "code": 400,
+    "message": "Invalid JSON payload received. Unknown name \"maxOutputTokens\": Cannot find field.\nInvalid JSON payload received. Unknown name \"temperature\": Cannot find field.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.goo
+2025-09-09 01:52:38,903 - Errors - DEBUG - REST https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generate?key=AIzaSyDmE1WG5EGcyldyD3eKbPn8LYEwT9EfGqg returned 404: 
+2025-09-09 01:52:41,572 - Errors - DEBUG - REST https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateText?key=AIzaSyDmE1WG5EGcyldyD3eKbPn8LYEwT9EfGqg returned 404: 
+2025-09-09 01:52:44,229 - Errors - DEBUG - REST https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generatecontent?key=AIzaSyDmE1WG5EGcyldyD3eKbPn8LYEwT9EfGqg returned 404: 
+2025-09-09 01:52:46,892 - Errors - DEBUG - REST https://generativelanguage.googleapis.com/v1beta2/models/gemini-1.5-flash:generateContent?key=AIzaSyDmE1WG5EGcyldyD3eKbPn8LYEwT9EfGqg returned 404: 
+2025-09-09 01:52:49,650 - Errors - DEBUG - REST https://generativelanguage.googleapis.com/v1beta2/models/gemini-1.5-flash:generate?key=AIzaSyDmE1WG5EGcyldyD3eKbPn8LYEwT9EfGqg returned 404: 
+2025-09-09 01:52:52,327 - Errors - DEBUG - REST https://generativelanguage.googleapis.com/v1beta2/models/gemini-1.5-flash:generateText?key=AIzaSyDmE1WG5EGcyldyD3eKbPn8LYEwT9EfGqg returned 400: {
+  "error": {
+    "code": 400,
+    "message": "Request payload size exceeds the limit: 50000 bytes.",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+2025-09-09 01:52:55,172 - Errors - DEBUG - REST https://generativelanguage.googleapis.com/v1beta2/models/gemini-1.5-flash:generatecontent?key=AIzaSyDmE1WG5EGcyldyD3eKbPn8LYEwT9EfGqg returned 404: 
+2025-09-09 01:52:58,060 - Errors - DEBUG - REST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyDmE1WG5EGcyldyD3eKbPn8LYEwT9EfGqg returned 400: {
+  "error": {
+    "code": 400,
+    "message": "Invalid JSON payload received. Unknown name \"maxOutputTokens\": Cannot find field.\nInvalid JSON payload received. Unknown name \"temperature\": Cannot find field.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.goo
+2025-09-09 01:53:00,849 - Errors - DEBUG - REST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generate?key=AIzaSyDmE1WG5EGcyldyD3eKbPn8LYEwT9EfGqg returned 404: 
+2025-09-09 01:53:04,005 - Errors - DEBUG - REST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateText?key=AIzaSyDmE1WG5EGcyldyD3eKbPn8LYEwT9EfGqg returned 400: {
+  "error": {
+    "code": 400,
+    "message": "Request payload size exceeds the limit: 50000 bytes.",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+2025-09-09 01:53:07,084 - Errors - DEBUG - REST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generatecontent?key=AIzaSyDmE1WG5EGcyldyD3eKbPn8LYEwT9EfGqg returned 404: 
+2025-09-09 01:53:09,826 - Errors - DEBUG - REST https://generativelanguage.googleapis.com/v1alpha/models/gemini-1.5-flash:generateContent?key=AIzaSyDmE1WG5EGcyldyD3eKbPn8LYEwT9EfGqg returned 400: {
+  "error": {
+    "code": 400,
+    "message": "Invalid JSON payload received. Unknown name \"maxOutputTokens\": Cannot find field.\nInvalid JSON payload received. Unknown name \"temperature\": Cannot find field.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.goo
+2025-09-09 01:53:12,529 - Errors - DEBUG - REST https://generativelanguage.googleapis.com/v1alpha/models/gemini-1.5-flash:generate?key=AIzaSyDmE1WG5EGcyldyD3eKbPn8LYEwT9EfGqg returned 404: 
+2025-09-09 01:53:15,476 - Errors - DEBUG - REST https://generativelanguage.googleapis.com/v1alpha/models/gemini-1.5-flash:generateText?key=AIzaSyDmE1WG5EGcyldyD3eKbPn8LYEwT9EfGqg returned 400: {
+  "error": {
+    "code": 400,
+    "message": "Invalid JSON payload received. Unknown name \"contents\": Cannot find field.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.BadRequest",
+        "fieldViolations": [
+          {
+           
+2025-09-09 01:53:18,228 - Errors - DEBUG - REST https://generativelanguage.googleapis.com/v1alpha/models/gemini-1.5-flash:generatecontent?key=AIzaSyDmE1WG5EGcyldyD3eKbPn8LYEwT9EfGqg returned 404: 
+2025-09-09 01:53:18,229 - Errors - ERROR - Unexpected error occurred: No working REST endpoint found for Generative Language API in this environment
+2025-09-09 01:57:27,056 - Errors - ERROR - Gemini API error: 400 {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+2025-09-09 01:59:09,765 - Errors - ERROR - Gemini API error: 400 {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+2025-09-09 02:00:25,651 - Errors - ERROR - Gemini API error: 400 {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+2025-09-09 02:02:07,635 - Errors - ERROR - Gemini API error: 400 {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+2025-09-09 02:03:31,892 - Errors - ERROR - Gemini API error: 400 {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+2025-09-09 02:25:37,509 - Errors - ERROR - Unexpected error occurred: Object of type StringPromptValue is not JSON serializable

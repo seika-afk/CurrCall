@@ -1,0 +1,16 @@
+langchain_community
+pypdf
+langchain
+faiss-cpu
+python-dotenv
+dvc
+dvclive
+tf-keras
+fastapi
+pydantic
+uvicorn
+google-generativeai
+starlette
+langchain-core
+
+
