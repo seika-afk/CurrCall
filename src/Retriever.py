@@ -5,7 +5,7 @@ import yaml
 with open("params.yaml", "r") as f:
     config = yaml.safe_load(f)
 
-# Use local embeddings (no Google API, no quota issues)
+
 embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 
 Vector_Stores = FAISS.load_local(
