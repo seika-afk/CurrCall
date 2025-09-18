@@ -6,7 +6,7 @@ with open("params.yaml", "r") as f:
     config = yaml.safe_load(f)
 
 
-embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/paraphrase-MiniLM-L3-v2")
 
 Vector_Stores = FAISS.load_local(
     "faiss_index",
