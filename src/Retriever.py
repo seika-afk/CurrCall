@@ -10,7 +10,7 @@ embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-
 
 
 Vector_Stores = FAISS.load_local(
-    "faiss_store",
+    "faiss_index",
     embeddings,
     allow_dangerous_deserialization=True
 )
