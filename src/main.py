@@ -46,6 +46,7 @@ logger = LogIt().logger
 GEMINI_API_URL = (
     "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
 )
+
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 # Prompt template
