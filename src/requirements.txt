@@ -14,3 +14,4 @@ starlette
 langchain-core
 langchain_google_genai
 sentence-transformers
+langchain-huggingface
