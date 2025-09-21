@@ -1,6 +1,6 @@
 from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
-
+import yaml
 
 with open("params.yaml", "r") as f:
     config = yaml.safe_load(f)
