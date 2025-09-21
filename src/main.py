@@ -1,5 +1,6 @@
 # local imports
-from Retriever import retriever
+from Retriever import get_retriever
+retriever = get_retriever()
 
 # external imports
 import logging
