@@ -7,8 +7,13 @@ import logging
 
 app = FastAPI(title="Query API", description="API to answer user questions", version="1.0.0")
 
+
 _query_function = None
 _loading_lock = asyncio.Lock()
+
+@app.on_event("startup")
+async def startup_event():
+    pass
 
 class UserInput(BaseModel):
     question: Annotated[str, Field(..., description="Question input'd by user.")]
@@ -46,9 +51,10 @@ def health_check():
 @app.post("/query")
 async def answer_query(data: UserInput):
     try:
-    
+        # Lazy load the query function
         query_func = await get_query_function()
-      
+        
+        # Run the query function in a thread pool to avoid blocking
         loop = asyncio.get_event_loop()
         answer = await loop.run_in_executor(None, query_func, data.question)
         
