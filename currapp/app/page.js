@@ -23,7 +23,7 @@ export default function Home() {
     <div className="relative h-screen w-screen overflow-hidden text-[#e0ddcf]">
       {/* Background Image */}
       <Image
-        src="/img.jpeg" // put img.jpeg in the public folder
+        src="/img.jpeg"
         alt="Background"
         fill
         className="object-cover"
@@ -62,8 +62,8 @@ export default function Home() {
     key={idx}
     className={`py-2 px-3 rounded-lg mb-3 text-sm border border-transparent hover:border-gray-500/50 ${
       msg.role === "user"
-        ? "bg-blue-600/70 text-white self-end"  // user messages aligned right
-        : "bg-[#404045]/80 text-white self-start" // bot messages aligned left
+        ? "bg-blue-600/70 text-white self-end"  
+        : "bg-[#404045]/80 text-white self-start"
     }`}
   >
     {msg.content}
@@ -71,7 +71,6 @@ export default function Home() {
 ))}
 
 
-              {/* Loading animation */}
               {isLoading && (
                 <div className="flex gap-4 py-3">
                   <Image
@@ -92,7 +91,7 @@ export default function Home() {
           )}
         </div>
 
-        {/* Centered PromptBox */}
+      
         <div className="flex justify-center px-4">
           <div className="w-full max-w-3xl">
             <PromptBox
